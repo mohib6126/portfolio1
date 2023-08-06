@@ -1,0 +1,255 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background: #1e1e1e;
+    font-family: 'Poppins', serif;
+    color: #f1f1f1;
+}
+ul{
+    padding: 0px;
+    margin: 0px;
+}
+img{
+    max-width: 100%;
+}
+a{
+    text-decoration: none;
+    color: #f1f1f1;
+}
+p{
+    font-size: 15px;
+}
+.padding{
+    padding: 60px 0px;
+}
+.heading{
+    font-weight: 600;
+    margin-bottom: 40px;
+}
+.heading::before{
+    content: "";
+    position: absolute;
+    width: 80px;
+    height: 4px;
+    background: #d97c09;
+    margin-top: 40px;
+    border-radius: 10px;
+}
+.m-btn{
+    border: 1px solid #d97c09;
+    padding: 10px 30px;
+    font-size: 15px;
+    border-radius: 5px;
+    transition: ease 0.3s;
+    background: transparent;
+    color: #d97c09;
+}
+.m-btn:hover{
+    background-color: #d97c09;
+    color: #1a1a1a;
+}
+
+/* Banner */
+#banner{
+    background-image: url(../img/headr2.jpg);
+    background-size: cover;
+    background-position: bottom;
+    width: 100%;
+    height: 240px;
+}
+#header{
+    color:#d7d7d7;
+}
+#header .blck{
+    background: #1a1a1a;
+    padding: 50px 0px;
+    margin-top: -100px;
+    border-radius: 20px;
+    -webkit-box-shadow: 0px 3px 10px -1px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 3px 10px -1px rgba(0,0,0,0.75);
+    box-shadow: 0px 3px 10px -1px rgba(0,0,0,0.75);
+}
+#header .blck .col-md-6{
+    display: inline-block;
+    float: left;
+}
+#header .image-block{
+    text-align: center;
+    border-right: 1px solid #000;
+}
+#header .image-block img{
+    width: 180px;
+    border: 5px solid #1a1a1a;
+    margin-top: -70px;
+    border-radius: 10px;
+}
+.name{
+    font-size: 35px;
+    margin: 20px 0px;
+    font-family: 'Pacifico', cursive;
+}
+.name span{
+    color: #d97c09;
+}
+.desc{
+    color: #adadad;
+    font-size: 15px;
+}
+.icons{
+    margin-top: 40px;
+}
+.icons .fa{
+    font-size: 21px;
+    background: #1a1a1a;
+    height: 50px;
+    width: 50px;
+    padding: 15px;
+    border-radius: 6px;
+    color: #d7d7d7;
+    margin-right: 7px;
+    -webkit-box-shadow: 0px 2px 8px -1px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 2px 8px -1px rgba(0,0,0,0.75);  
+    box-shadow: 0px 2px 8px -1px rgba(0,0,0,0.75);
+    transition: ease 0.3s;
+}
+.icons .fa:hover{
+    background: #d97c09;
+    color: #1a1a1a;
+ }
+.info-block{
+    margin-left:30px;
+    margin-top: 30px;
+}
+.info-block h5{
+    font-size: 15px;
+    color: #d97c09;
+}
+.info-block p{
+    font-size: 18px;
+}
+.info-block .m1{
+    margin-bottom: 37px;
+}
+.info-block .fa{
+    float: left;
+    font-size: 30px;
+    display: block;
+    width: 30px;
+    margin: 10px 30px;
+    color: #d97c09;
+}
+
+/* About me */
+#about-me .choose-me span{
+    color: #d97c09;
+}
+#about-me .choose-me p{
+    font-size: 16px;
+}
+#about-me .choose-me .fa{
+    font-size: 20px;
+    margin-right: 12px;
+    color: #d97c09;
+}
+#about-me .m-btn{
+    margin-top: 30px;
+}
+
+
+/* Portfolio */
+.port-block{
+     background: #1a1a1a;
+    padding: 30px;
+    border-radius: 15px;
+    transition: ease 0.4s;
+    float: left;
+}
+.port-block:hover{
+    background: #0e0e0e;
+} 
+.port-block:hover img{
+    transform: scale(1.1);
+}
+.port-block .image{
+    overflow: hidden;
+    border-radius: 15px;
+}
+.port-block img{
+    border-radius: 15px;
+    transition: ease 0.4s;
+}
+.port-block span{
+    font-size: 14px;
+    color: #d97c09;
+}
+.port-top{
+    margin: 18px 0px;
+}
+.port-block .fa{
+    float: right;
+    font-size: 14px;
+    transition: ease 0.3s;
+    cursor: pointer;
+    padding: 4px 10px;
+    border-radius: 5px;
+}
+.port-block .fa:hover{
+    color: #1e1e1e;
+    background: #d97c09;
+}
+.port-block .port-bottom a{
+    transition: ease 0.3s;
+}
+.port-block .port-bottom a:hover{
+    color: #d97c09;
+}
+
+/* Footer */
+#footer{
+    background-color: #1a1a1a;
+    text-align: center;
+    padding: 40px 0px;
+}
+#footer img{
+    border-radius: 7px;
+    width: 60px;
+    margin-bottom: 30px;
+}
+#footer p{
+    line-height: 10px;
+}
+#footer span{
+    color: #d97c09;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Laptop Media Query */
+@media (min-width:1220px){
+   
+}
+ 
+/* Mobile Media Queries*/
+@media (max-width:767px){
+   
+}
+
+/* Mobile Menu */
+@media (max-width:767px){
+   
+}
